@@ -26,24 +26,17 @@ input {
 .heroes a {
   color: #333;
   text-decoration: none;
-  background-color: #eee;
+  /* background-color: #eee; */
   margin: 0.5em;
   padding: 0.3em 0;
-  height: 1.6em;
-  border-radius: 4px;
   display: block;
   width: 100%;
 }
 
-.heroes a:hover {
-  color: #2c3a41;
-  background-color: #e6e6e6;
-}
-
-.heroes a:active {
+/* .heroes a:active {
   background-color: #525252;
   color: #fafafa;
-}
+} */
 
 .heroes .badge {
   display: inline-block;
@@ -54,7 +47,7 @@ input {
   line-height: 1em;
   position: relative;
   left: -1px;
-  top: -4px;
+  top: -2.5px;
   height: 1.8em;
   min-width: 16px;
   text-align: right;
@@ -62,29 +55,18 @@ input {
   border-radius: 4px 0 0 4px;
 }
 
-.add-button {
+/* .add-button {
   padding: 0.5rem 1.5rem;
   font-size: 1rem;
   margin-bottom: 2rem;
-}
-
-.add-button:hover {
-  color: white;
-  background-color: #42545c;
-}
+} */
 
 button.delete {
+  /* background-color: #405061; */
   position: absolute;
-  left: 210px;
-  top: 5px;
-  background-color: white;
-  color: #525252;
-  font-size: 1.1rem;
-  margin: 0;
-  padding: 1px 10px 3px 10px;
-}
-
-button.delete:hover {
-  background-color: #525252;
-  color: white;
+  left: 220px;
+  top: 0;
+  /* height: fit-content;
+  width: fit-content; */
+  /* padding: 3px 10px 3px 10px; */
 }
