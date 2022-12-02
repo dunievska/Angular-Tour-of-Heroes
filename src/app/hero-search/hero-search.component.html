@@ -8,11 +8,11 @@
       (input)="search(searchBox.value)"
   /></mat-form-field>
 
-  <ul class="search-result">
-    <li *ngFor="let hero of heroes$ | async">
-      <a routerLink="/detail/{{ hero.id }}">
+  <mat-action-list class="search-result">
+    <mat-list-item *ngFor="let hero of heroes$ | async">
+      <a mat-button routerLink="/detail/{{ hero.id }}">
         {{ hero.name }}
       </a>
-    </li>
-  </ul>
+    </mat-list-item>
+  </mat-action-list>
 </div>
