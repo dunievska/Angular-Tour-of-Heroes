@@ -1,17 +1,15 @@
 /* HeroesComponent's private CSS styles */
+.add-new {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .heroes {
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
   width: 15em;
-}
-
-input {
-  display: block;
-  width: 100%;
-  padding: 0.5rem;
-  margin: 1rem 0;
-  box-sizing: border-box;
 }
 
 .heroes li {
@@ -26,17 +24,16 @@ input {
 .heroes a {
   color: #333;
   text-decoration: none;
-  /* background-color: #eee; */
   margin: 0.5em;
   padding: 0.3em 0;
   display: block;
   width: 100%;
 }
 
-/* .heroes a:active {
+.heroes a:active {
   background-color: #525252;
   color: #fafafa;
-} */
+}
 
 .heroes .badge {
   display: inline-block;
@@ -55,18 +52,15 @@ input {
   border-radius: 4px 0 0 4px;
 }
 
-/* .add-button {
+.add-button {
   padding: 0.5rem 1.5rem;
   font-size: 1rem;
   margin-bottom: 2rem;
-} */
+}
 
 button.delete {
-  /* background-color: #405061; */
   position: absolute;
   left: 220px;
   top: 0;
-  /* height: fit-content;
-  width: fit-content; */
-  /* padding: 3px 10px 3px 10px; */
+  padding: 3px 10px 3px 10px;
 }

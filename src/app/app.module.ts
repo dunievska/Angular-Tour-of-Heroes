@@ -8,6 +8,7 @@ import { InMemoryDataService } from './services/in-memory-data.service';
 
 import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
+import { MatInputModule } from '@angular/material/input';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -38,6 +39,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule,
     MatButtonModule,
     MatListModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

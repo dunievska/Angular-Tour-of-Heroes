@@ -1,8 +1,10 @@
 <h2>My Heroes</h2>
 
-<div>
-  <label for="new-hero">Hero name: </label>
-  <input id="new-hero" #heroName />
+<div class="add-new">
+  <mat-form-field>
+    <mat-label for="new-hero">Hero name: </mat-label>
+    <input matInput id="new-hero" #heroName />
+  </mat-form-field>
 
   <button
     mat-raised-button

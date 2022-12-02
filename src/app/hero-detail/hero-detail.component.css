@@ -1,24 +1,10 @@
-/* HeroDetailComponent's private CSS styles */
-label {
-  color: #435960;
-  font-weight: bold;
+.hero-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-input {
-  font-size: 1em;
-  padding: 0.5rem;
+
+.buttons-box {
+  display: flex;
+  gap: 10px;
 }
-/* button {
-  margin-top: 20px;
-  background-color: #eee;
-  padding: 1rem;
-  border-radius: 4px;
-  font-size: 1rem;
-}
-button:hover {
-  background-color: #cfd8dc;
-}
-button:disabled {
-  background-color: #eee;
-  color: #ccc;
-  cursor: auto;
-} */
