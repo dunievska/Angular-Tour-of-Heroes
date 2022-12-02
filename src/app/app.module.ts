@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService } from './in-memory-data.service';
+import { InMemoryDataService } from './servises/in-memory-data.service';
 
 import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
